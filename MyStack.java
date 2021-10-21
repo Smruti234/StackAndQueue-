@@ -29,4 +29,7 @@ private final MyLinkedListTest myLinkedList;
 		myLinkedList.append(myNode);
 		
 	}
+	public INode dequeue() {
+		return myLinkedList.pop();
+	}
 }
