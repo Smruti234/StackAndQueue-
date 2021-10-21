@@ -25,5 +25,8 @@ private final MyLinkedListTest myLinkedList;
 	public INode pop() {
 		return myLinkedList.pop();
 	}
-
+	public void Enqueue(INode myNode) {
+		myLinkedList.append(myNode);
+		
+	}
 }
